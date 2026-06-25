@@ -45,6 +45,7 @@
 }
 
 .sedan img {
+  opacity: 0.4;
   margin-left: 45px;
   width: 50px;
   height: 50px;
@@ -106,6 +107,7 @@
 }
 
 .SUVS img {
+  opacity: 0.4;
   margin-left: 45px;
   width: 50px;
   height: 50px;
@@ -169,6 +171,7 @@
 }
 
 .luxury img {
+  opacity: 0.4;
   margin-left: 45px;
   width: 50px;
   height: 50px;
