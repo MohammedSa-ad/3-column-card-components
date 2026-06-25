@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: lightgrey;
+}
+
+.main-card {
+  width: 900px;
+  height: 65%;
+  display: flex;
+}
+
+/* CARD 1 STYLING*/
+.card-1 {
+  width: 150px;
+  height: 100%;
+  flex: 1;
+  padding: 10px;
+  background-color: #e28525;
+  border: transparent;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+}
+
+.sedan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.sedan img {
+  margin-left: 45px;
+  width: 50px;
+  height: 50px;
+}
+
+.card-1 h1 {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-1 p {
+  padding: 10px;
+  color: white;
+  font-weight: lighter;
+}
+
+#boss-1 {
+  padding: 12px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #e28525;
+  border-radius: 25px;
+  width: 150px;
+  border: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#boss-1:hover {
+  color: #e28525;
+  background-color: white;
+  transform: translateY(-8px);
+}
+
+/* CARD 2 STYLING*/
+.card-2 {
+  width: 150px;
+  height: 100%;
+  flex: 1;
+  padding: 10px;
+  background-color: #016972;
+  position: relative;
+}
+.SUVS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50px;
+  margin-left: 10px;
+  height: 50px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.SUVS img {
+  margin-left: 45px;
+  width: 50px;
+  height: 50px;
+}
+
+.card-2 h1 {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-2 p {
+  padding: 10px;
+  color: white;
+  font-weight: lighter;
+}
+
+#boss-2 {
+  padding: 12px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #016972;
+  border-radius: 25px;
+  width: 150px;
+  border: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#boss-2:hover {
+  color: #016972;
+  background-color: white;
+  transform: translateY(-8px);
+}
+
+/* CARD-3 */
+
+.card-3 {
+  width: 150px;
+  height: 100%;
+  flex: 1;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #00403f;
+  position: relative;
+}
+.luxury {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.luxury img {
+  margin-left: 45px;
+  width: 50px;
+  height: 50px;
+}
+.card-3 h1 {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-3 p {
+  padding: 10px;
+  color: white;
+  font-weight: lighter;
+}
+
+#boss-3 {
+  padding: 12px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #00403f;
+  border-radius: 25px;
+  width: 150px;
+  border: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#boss-3:hover {
+  color: #00403f;
+  background: white;
+  transform: translateY(-8px);
+}
